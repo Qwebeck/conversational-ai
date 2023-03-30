@@ -1,7 +1,60 @@
-# Idea
+Acronym - Title: CONVAI-12
+Authors: Bohdan Forostianyi, Jakub Koźliak
+Year, Group: 2023, group 4
 
-The bot is designed to act as an intermediary between Discord users and the Wikipedia platform. It will leverage the Wikipedia API to provide users with access to relevant information and resources from the platform directly through Discord.
+
+Contents list
+
+# 1. Introduction
+
+The bot is designed to act as an intermediary between Discord users and the Wikipedia platform. It will leverage the [Wikipedia API](https://en.wikipedia.org/w/api.php?action=help&modules=query) to provide users with access to relevant information and resources from the platform directly through Discord.
 
 Additionally, the bot will include a feature that allows users to receive recommendations for similar articles based on their search history or by passing an article as an argument. This feature will provide users with a personalized experience and facilitate discovery of related topics of interest.
 
-Overall, the bot's functionality will enable users to seamlessly access and explore the vast resources available on Wikipedia without ever having to leave the Discord platform.
+
+# 2. Theoretical background/technology stack
+
+Application will consists of two parts: first is a bot itself, second - language extraction model based in the cloud which will be able to analyze user history and provide recomendations.
+
+## Language Model
+
+As a model provider will be used Microsoft Azure and its [KeyPhrases Service](https://learn.microsoft.com/en-us/connectors/cognitiveservicestextanalytics/?context=%2Fazure%2Fcognitive-services%2Flanguage-service%2Fcontext%2Fcontext&fbclid=IwAR3jIeFY1hPbyTBLq55i17pqwRCWCPj4OO-mncsk-T7_4oPZ_WBOLEJQaBk#async-keyphrases-(2022-05-01))
+
+Normally this service is paid
+
+![image](https://user-images.githubusercontent.com/21079319/228912379-64e183f8-43bc-46ba-a30d-53a5b5334614.png)
+
+however, Azure allows for creation of a free account which goes with `200 USD` credits for use in the first month, which should be sufficient for demo.
+
+![image](https://user-images.githubusercontent.com/21079319/228914251-d13bb603-6a61-4e3a-989f-ea721ccc6184.png)
+
+## Discord Bot
+
+TODO
+
+# 3. Case study concept description
+
+
+The bot with provide users with two commands:
+
+ - `/search [query]` - which will search for an articles with title matching provided `query` and disaply it on Discord
+ - `/recommend` - which will recommend articles to the user based on his search history
+
+ 
+
+# 4. Solution architecture
+# 5. Environment configuration description
+# 6. Installation method
+# 7. How to reproduce - step by step
+## Infrastructure as Code approach
+# 8. Demo deployment steps:
+## Configuration set-up
+## Data preparation
+## Execution procedure
+## Results presentation
+# 9. Summary – conclusions
+# Reference
+
+
+
+

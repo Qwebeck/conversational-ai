@@ -28,9 +28,14 @@ however, Azure allows for creation of a free account which goes with `200 USD` c
 
 ![image](https://user-images.githubusercontent.com/21079319/228914251-d13bb603-6a61-4e3a-989f-ea721ccc6184.png)
 
-## Discord Bot
+##  <img src="https://theme.zdassets.com/theme_assets/678183/84b82d07b293907113d9d4dafd29bfa170bbf9b6.ico" width="24"> Discord Bot 
 
-TODO
+Bot part of the project will be based on Python [Discord API](https://discord.com/developers/docs/intro)
+
+It allows to extend basic Discord Server functionality by making event driven application for custom handling user's behaviour, 
+in our case: reacting for text chat messages defined below.
+
+Discord API provides easy way to integrate with user's Server by attaching extension to Server configuration.
 
 # 3. Case study concept description
 

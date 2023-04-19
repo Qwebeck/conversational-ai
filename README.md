@@ -45,9 +45,15 @@ The bot with provide users with two commands:
  - `/search [query]` - which will search for an articles with title matching provided `query` and disaply it on Discord
  - `/recommend` - which will recommend articles to the user based on his search history
 
- 
-
 # 4. Solution architecture
+
+## Architecture Diagram
+![Blank diagram - Page 1](https://user-images.githubusercontent.com/80708447/233092309-cc6e9dd9-95c2-474e-a23f-38cc9ea3b9a8.png)
+
+## Sequential diagram of proposed queries
+![Blank diagram - Sequence diagram](https://user-images.githubusercontent.com/80708447/233092448-af865d80-6597-4589-8c2c-c38e578fecd9.png)
+
+
 # 5. Environment configuration description
 # 6. Installation method
 # 7. How to reproduce - step by step

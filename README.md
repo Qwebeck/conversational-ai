@@ -55,6 +55,12 @@ The bot with provide users with two commands:
 
 
 # 5. Environment configuration description
+Our bot will be used on Discord Server as an extension for regular text channels. By default it will be available for every user on server, allowing them to search articles using WikipediaAPI. 
+
+Bot will need access to KeyPhraseService, which can be configured during bot installation on Discord Server.
+
+WikipediaAPI is free to use, no need for further configuration.
+
 # 6. Installation method
 # 7. How to reproduce - step by step
 ## Infrastructure as Code approach

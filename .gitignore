@@ -1,1 +1,4 @@
 /discord_bot/.env
+.vscode
+__pycache__
+

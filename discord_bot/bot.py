@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 import MessageHandler as message_handler
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
-from discord.ext import commands
 
 TOKEN_KEY = 'TOKEN'
 

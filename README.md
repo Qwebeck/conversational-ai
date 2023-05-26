@@ -88,6 +88,18 @@ Bot will return 10 articles most relevant to your request.
 After that run recommend, which will return 10 articles most relevant to your search history.
 
 ## Results presentation
+Let's assume our user was recently interested in fantasy and searched for topics related to orcs and to world of Warcraft, as it shown below.
+
+![image](https://github.com/Qwebeck/conversational-ai/assets/21079319/84b5f224-4b93-49d3-97b5-e776bb874d4b)
+ 
+![image](https://github.com/Qwebeck/conversational-ai/assets/21079319/e6114ccd-50c8-446d-83bb-dffce91850e3)
+
+
+After some time he found an information about everything he needed and decides to ask for recomendation.
+So he types command `recommend` and he is presented with the following results
+![image](https://github.com/Qwebeck/conversational-ai/assets/21079319/6bffafa1-3345-4bc0-a2f5-42e41aacf6ef)
+
+
 
 # 9. Summary – conclusions
 

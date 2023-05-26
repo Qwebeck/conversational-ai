@@ -1,0 +1,3 @@
+discord.py
+azure-ai-textanalytics
+python-dotenv

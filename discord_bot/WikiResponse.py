@@ -43,4 +43,4 @@ class WikiRecomendationResponse:
         self.search_response = search_response
 
     def __str__(self):
-        return f"Most keyphrase from recent articles: {self.most_common_keyphrase} (occured {self.occurences})\n" + str(self.search_response)
+        return f"Most common keyphrase from recent articles: {self.most_common_keyphrase} (occured {self.occurences})\n" + str(self.search_response)

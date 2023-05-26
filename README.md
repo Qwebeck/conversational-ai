@@ -77,6 +77,7 @@ In order to install and bot install dependencies from `requirements.txt` file wi
 ## Configuration set-up
 
 Create `.env` file with following variables:
+
     - `DISCORD_TOKEN` - token for Discord Bot (you can get it from Discord Developer Portal -> Applications -> [Your Application] -> Bot -> Token)
     - `KEY_PHRASE_SERVICE_ENDPOINT` - endpoint for KeyPhraseService (you can get it from Azure Portal -> Resources -> [Your Resource Name] -> Keys and Endpoints -> Endpoint)
     - `KEY_PHRASE_SERVICE_KEY` - key for KeyPhraseService (you can get it from Azure Portal -> Resources -> [Your Resource Name] -> Keys and Endpoints -> Key 1)
@@ -99,6 +100,7 @@ So before using it in production more in depth comparison between other provides
 
 # Reference
 
-* [Discord API](https://discord.com/developers/docs/intro)
+- [Discord API](https://discord.com/developers/docs/intro)
+
 - [Wikipedia API](https://en.wikipedia.org/w/api.php?action=help&modules=query)
 - [Azure Language Services](https://learn.microsoft.com/en-us/connectors/cognitiveservicestextanalytics)

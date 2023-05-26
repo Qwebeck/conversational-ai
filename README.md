@@ -111,6 +111,6 @@ So before using it in production more in depth comparison between other provides
 
 # Reference
 
-* [Discord API](https://discord.com/developers/docs/intro)
+- [Discord API](https://discord.com/developers/docs/intro)
 - [Wikipedia API](https://en.wikipedia.org/w/api.php?action=help&modules=query)
 - [Azure Language Services](https://learn.microsoft.com/en-us/connectors/cognitiveservicestextanalytics)

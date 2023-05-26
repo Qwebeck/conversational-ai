@@ -92,7 +92,7 @@ Let's assume our user was recently interested in fantasy and searched for topics
 
 ![image](https://github.com/Qwebeck/conversational-ai/assets/21079319/84b5f224-4b93-49d3-97b5-e776bb874d4b)
  
-![image](https://github.com/Qwebeck/conversational-ai/assets/21079319/e6114ccd-50c8-446d-83bb-dffce91850e3)
+![image](https://github.com/Qwebeck/conversational-ai/assets/21079319/953b81ba-e6bc-4353-ad6d-5f9e39f8f853)
 
 
 After some time he found an information about everything he needed and decides to ask for recomendation.

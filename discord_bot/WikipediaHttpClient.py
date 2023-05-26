@@ -1,20 +1,31 @@
 import requests
 import urls
-from WikiResponse import WikiResponse
+from WikiResponse import WikiSearchResponse
+from dataclasses import dataclass
 
-default_params = {'namespace': 0, 'format': 'json', 'search': ''}
-SEARCH = 'search'
+
 HTTP_OK = 200
 
 
-def make_wikipedia_request(query) -> WikiResponse:
+def search(query) -> WikiSearchResponse:
+    params = {'namespace': 0, 'format': 'json', 'search': query}
     try:
-        default_params[SEARCH] = query
-        request = requests.get(urls.wikipedia_open_search, params=default_params)
+        request = requests.get(
+            urls.wikipedia_open_search, params=params)
         if request.status_code == HTTP_OK:
             json = request.json()
-            return WikiResponse(json[0], json[1], json[3], request.status_code)
+            return WikiSearchResponse(json[0], json[1], json[3], request.status_code)
         else:
-            return WikiResponse.empty(request.status_code)
+            return WikiSearchResponse.empty(request.status_code)
     except Exception as e:
-        return WikiResponse.empty(e)
+        return WikiSearchResponse.empty(e)
+
+
+def get_summary(article_title) -> str:
+    params = {'titles': article_title, 'format': 'json'}
+    request = requests.get(urls.wikipedia_summary, params=params)
+    if request.status_code == HTTP_OK:
+        json = request.json()['query']
+        resp = list(json['pages'].values())[0]
+        return resp.get('extract', '')
+    return 'Article not found'
